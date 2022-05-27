@@ -8,9 +8,9 @@
 	],
 	"sourcesContent": [
 		"@import 'variables';\r\n@import 'home';",
-		"$main-color : green;\r\n$second-color: blue;",
-		"header{\r\n    width: 100%;\r\n    height: 80px;\r\n    background-color: $main-color;   \r\n}\r\n\r\nsection{\r\n    width: 100%;\r\n    height: 300px;\r\n    margin-top: 100px;\r\n    background-color: $main-color;  \r\n}\r\n\r\nh1{\r\n    color: $second-color;\r\n}"
+		"$main-color : green;\r\n$button-color: black;\r\n$second-color: blue;",
+		"header {\r\n  width: 100%;\r\n  height: 80px;\r\n  background-color: $main-color;\r\n}\r\n\r\n.s-hero {\r\n  width: 100%;\r\n  height: 300px;\r\n  margin-top: 100px;\r\n  background-color: $main-color;\r\n  .container {\r\n    width: 100%;\r\n    max-width: 1140px;\r\n    h1 {\r\n      color: $second-color;\r\n    }\r\n    button {\r\n      padding: 20px 30px;\r\n      font-size: 1.4rem;\r\n      border-radius: 0.4rem;\r\n      background-color: $button-color;\r\n      color: $second-color;\r\n      &:hover {\r\n        background-color: $second-color;\r\n        color: white;\r\n      }\r\n    }\r\n  }\r\n}\r\n"
 	],
 	"names": [],
-	"mappings": ";AEAA,AAAA,MAAM,CAAA;EACF,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,gBAAgB,EDHN,KAAK;CCIlB;;;AAED,AAAA,OAAO,CAAA;EACH,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,KAAK;EACjB,gBAAgB,EDVN,KAAK;CCWlB;;;AAED,AAAA,EAAE,CAAA;EACE,KAAK,EDbM,IAAI;CCclB"
+	"mappings": ";AEAA,AAAA,MAAM,CAAC;EACL,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,gBAAgB,EDHJ,KAAK;CCIlB;;;AAED,AAAA,OAAO,CAAC;EACN,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,KAAK;EACjB,gBAAgB,EDVJ,KAAK;CC6BlB;;;AAvBD,AAKE,OALK,CAKL,UAAU,CAAC;EACT,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,MAAM;CAelB;;;AAtBH,AAQI,OARG,CAKL,UAAU,CAGR,EAAE,CAAC;EACD,KAAK,EDbI,IAAI;CCcd;;;AAVL,AAWI,OAXG,CAKL,UAAU,CAMR,MAAM,CAAC;EACL,OAAO,EAAE,SAAS;EAClB,SAAS,EAAE,MAAM;EACjB,aAAa,EAAE,MAAM;EACrB,gBAAgB,EDpBP,KAAK;ECqBd,KAAK,EDpBI,IAAI;CCyBd;;;AArBL,AAiBM,OAjBC,CAKL,UAAU,CAMR,MAAM,AAMH,MAAM,CAAC;EACN,gBAAgB,EDtBT,IAAI;ECuBX,KAAK,EAAE,KAAK;CACb"
 }
