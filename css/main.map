@@ -3,20 +3,14 @@
 	"file": "main.css",
 	"sources": [
 		"../scss/main.scss",
-		"../scss/_responsive.scss",
-		"../scss/_reset.scss",
-		"../scss/_buttons.scss",
-		"../scss/_header.scss",
-		"../scss/_footer.scss"
+		"../scss/_variables.scss",
+		"../scss/_home.scss"
 	],
 	"sourcesContent": [
-		"@import 'responsive';\r\n@import 'reset';\r\n@import 'buttons';\r\n@import 'header';\r\n@import 'footer';",
-		"@media(max-width: 1200px) {\r\n    h1{\r\n        font-size: 2rem;\r\n    }\r\n}",
-		" * {\r\n     margin: 0;\r\n     padding: 0;\r\n }",
-		".btn-primary{\r\n    background-color: red;\r\n}",
-		"header{\r\n    background-color: blue;\r\n}",
-		"footer{\r\n    background-color: red;\r\n}"
+		"@import 'variables';\r\n@import 'home';",
+		"$main-color : green;\r\n$second-color: blue;",
+		"header{\r\n    width: 100%;\r\n    height: 80px;\r\n    background-color: $main-color;   \r\n}\r\n\r\nsection{\r\n    width: 100%;\r\n    height: 300px;\r\n    margin-top: 100px;\r\n    background-color: $main-color;  \r\n}\r\n\r\nh1{\r\n    color: $second-color;\r\n}"
 	],
 	"names": [],
-	"mappings": "ACAA,MAAM,EAAC,SAAS,EAAE,MAAM;;EACpB,AAAA,EAAE,CAAA;IACE,SAAS,EAAE,IAAI;GAClB;;;;ACHJ,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;;ACHF,AAAA,YAAY,CAAA;EACR,gBAAgB,EAAE,GAAG;CACxB;;;ACFD,AAAA,MAAM,CAAA;EACF,gBAAgB,EAAE,IAAI;CACzB;;;ACFD,AAAA,MAAM,CAAA;EACF,gBAAgB,EAAE,GAAG;CACxB"
+	"mappings": ";AEAA,AAAA,MAAM,CAAA;EACF,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,gBAAgB,EDHN,KAAK;CCIlB;;;AAED,AAAA,OAAO,CAAA;EACH,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,KAAK;EACjB,gBAAgB,EDVN,KAAK;CCWlB;;;AAED,AAAA,EAAE,CAAA;EACE,KAAK,EDbM,IAAI;CCclB"
 }
