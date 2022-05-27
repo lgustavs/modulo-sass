@@ -46,3 +46,74 @@ footer {
     @include style-btn(75px, 75px, red);
   }
 }
+
+.s-responsive {
+  @include block-page(100%, 400px, black);
+  @include flex-element(center, center, row);
+  .container {
+    margin: 0rem 0.5rem;
+    @include block-page(200px, 200px, white);
+    @include flex-element(center, center, row);
+    .text {
+      h1 {
+        @include text-block-page(2.2rem, black, uppercase);
+      }
+    }
+  }
+  @include responsive(1200px) {
+    .container {
+      @include block-page(180px, 180px, yellow);
+      .text {
+        h1 {
+          @include text-block-page(1.8rem, black, uppercase);
+        }
+      }
+    }
+  }
+  @include responsive(991px) {
+    .container {
+      @include block-page(130px, 130px, red);
+      .text {
+        h1 {
+          @include text-block-page(1.5rem, black, uppercase);
+        }
+      }
+    }
+  }
+  @include responsive(768px) {
+    @include flex-element(center, center, column);
+    .container {
+      margin: 0.5rem 0rem;
+      @include block-page(100px, 100px, blue);
+      .text {
+        h1 {
+          @include text-block-page(1.5rem, black, lowercase);
+        }
+      }
+    }
+  }
+  @include responsive(600px) {
+    @include flex-element(center, center, column);
+    .container {
+      margin: 0.5rem 0rem;
+      @include block-page(100px, 100px, purple);
+      .text {
+        h1 {
+          @include text-block-page(1.5rem, black, lowercase);
+        }
+      }
+    }
+  }
+  @include responsive(480px) {
+    @include flex-element(center, center, column);
+    .container {
+      margin: 0.5rem 0rem;
+      @include block-page(80px, 80px, white);
+      .text {
+        h1 {
+          @include text-block-page(2.2rem, black, uppercase);
+        }
+      }
+    }
+  }
+}

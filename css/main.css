@@ -90,4 +90,133 @@ footer button {
   flex-direction: row;
 }
 
+/* line 50, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_home.scss */
+.s-responsive {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+/* line 53, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_home.scss */
+.s-responsive .container {
+  margin: 0rem 0.5rem;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+/* line 58, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_home.scss */
+.s-responsive .container .text h1 {
+  font-size: 2.2rem;
+  color: black;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+  /* line 64, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_home.scss */
+  .s-responsive .container {
+    width: 180px;
+    height: 180px;
+    background-color: yellow;
+  }
+  /* line 67, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_home.scss */
+  .s-responsive .container .text h1 {
+    font-size: 1.8rem;
+    color: black;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 74, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_home.scss */
+  .s-responsive .container {
+    width: 130px;
+    height: 130px;
+    background-color: red;
+  }
+  /* line 77, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_home.scss */
+  .s-responsive .container .text h1 {
+    font-size: 1.5rem;
+    color: black;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 50, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_home.scss */
+  .s-responsive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  /* line 85, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_home.scss */
+  .s-responsive .container {
+    margin: 0.5rem 0rem;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+  }
+  /* line 89, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_home.scss */
+  .s-responsive .container .text h1 {
+    font-size: 1.5rem;
+    color: black;
+    text-transform: lowercase;
+  }
+}
+
+@media (max-width: 600px) {
+  /* line 50, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_home.scss */
+  .s-responsive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  /* line 97, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_home.scss */
+  .s-responsive .container {
+    margin: 0.5rem 0rem;
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+  }
+  /* line 101, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_home.scss */
+  .s-responsive .container .text h1 {
+    font-size: 1.5rem;
+    color: black;
+    text-transform: lowercase;
+  }
+}
+
+@media (max-width: 480px) {
+  /* line 50, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_home.scss */
+  .s-responsive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  /* line 109, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_home.scss */
+  .s-responsive .container {
+    margin: 0.5rem 0rem;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+  }
+  /* line 113, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_home.scss */
+  .s-responsive .container .text h1 {
+    font-size: 2.2rem;
+    color: black;
+    text-transform: uppercase;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
