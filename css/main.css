@@ -1,12 +1,29 @@
-/* line 1, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/main.scss */
-body {
-  background-color: black;
+@media (max-width: 1200px) {
+  /* line 2, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_responsive.scss */
+  h1 {
+    font-size: 2rem;
+  }
 }
 
-/* line 3, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/main.scss */
-body h1 {
-  color: pink;
-  font-size: 3.2rem;
+/* line 1, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_buttons.scss */
+.btn-primary {
+  background-color: red;
+}
+
+/* line 1, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_header.scss */
+header {
+  background-color: blue;
+}
+
+/* line 1, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_footer.scss */
+footer {
+  background-color: red;
 }
 
 /*# sourceMappingURL=main.css.map */

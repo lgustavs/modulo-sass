@@ -1,7 +1,5 @@
-body {
-  background-color: black;
-  h1 {
-    color: pink;
-    font-size: 3.2rem;
-  }
-}
+@import 'responsive';
+@import 'reset';
+@import 'buttons';
+@import 'header';
+@import 'footer';
