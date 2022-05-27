@@ -1,3 +1,9 @@
+/* line 1, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* line 1, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_home.scss */
 header {
   width: 100%;
@@ -37,6 +43,51 @@ header {
 .s-hero .container button:hover {
   background-color: blue;
   color: white;
+}
+
+/* line 33, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_home.scss */
+.first-section .btn {
+  width: 350px;
+  height: 400px;
+  background-color: purple;
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+/* line 39, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_home.scss */
+.second-section .btn {
+  width: 1050px;
+  height: 100px;
+  background-color: green;
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+/* line 45, ../../../../../../luiz.gustavo/Documents/GitHub/modulo-sass/scss/_home.scss */
+footer button {
+  width: 75px;
+  height: 75px;
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -28,3 +28,21 @@ header {
     }
   }
 }
+
+.first-section {
+  .btn {
+    @include style-btn(350px, 400px, purple);
+  }
+}
+
+.second-section {
+  .btn {
+    @include style-btn(1050px, 100px, green);
+  }
+}
+
+footer {
+  button {
+    @include style-btn(75px, 75px, red);
+  }
+}
